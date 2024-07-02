@@ -67,13 +67,9 @@
     </form>
 </div>
 
-
-</body>
-</html>
-
 <?php
 
- require_once "functions.php";
+require_once "functions.php";
 
 if (isset($_FILES['image'])) {
     $tmpName = $_FILES['image']['tmp_name'];
@@ -97,6 +93,11 @@ if (isset($_FILES['image'])) {
 
 
 ?>
+
+</body>
+</html>
+
+
 
 
 
